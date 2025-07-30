@@ -4,49 +4,42 @@ This repository contains a data-driven analysis of the relationship between the 
 📘 Project Description
 
 
-Castle Doctrine laws permit individuals to use force—often deadly force—in defense of themselves or their property without the duty to retreat. This project investigates the potential causal or correlative impact of these laws on violent crime statistics such as:
+- Castle Doctrine laws permit individuals to use force—often deadly force—in defense of themselves or their property without the duty to retreat. This project investigates the potential causal or correlative impact of these laws on violent crime statistics such as:
 
-Homicide
+- Homicide
 
-Aggravated assault
+- Aggravated assault
 
-Robbery
+- Robbery
 
-Overall violent crime
+- Overall violent crime
 
-This study uses before-and-after comparisons and cross-state data to determine trends and shifts in crime patterns post-legislation.
+- This study uses before-and-after comparisons and cross-state data to determine trends and shifts in crime patterns post-legislation.
 
 
 📊 Key Features
-Data Acquisition & Preprocessing:
 
-Loads crime rate data for U.S. states over multiple years.
+- **Data Acquisition & Preprocessing:**
+- Loads crime rate data for U.S. states over multiple years.
+- Marks states with Castle Doctrine enactment years.
+- Handles null values and ensures time alignment across datasets.
 
-Marks states with Castle Doctrine enactment years.
+- **Exploratory Data Analysis (EDA):**
+- Time-series analysis of crime rate trends.
+- Comparison of crime rates before and after law implementation.
+- Aggregated views of crime rate changes across Castle vs non-Castle states.
 
-Handles null values and ensures time alignment across datasets.
+**Visualizations:**
 
-Exploratory Data Analysis (EDA):
+- Line plots to compare trends pre- and post-law.
+- Bar charts for average changes in crime rate.
+- Highlighted outlier states and post-enactment shifts.
 
-Time-series analysis of crime rate trends.
+**Policy Implications:
+**
+- Discusses limitations and potential interpretations of results.
 
-Comparison of crime rates before and after law implementation.
-
-Aggregated views of crime rate changes across Castle vs non-Castle states.
-
-Visualizations:
-
-Line plots to compare trends pre- and post-law.
-
-Bar charts for average changes in crime rate.
-
-Highlighted outlier states and post-enactment shifts.
-
-Policy Implications:
-
-Discusses limitations and potential interpretations of results.
-
-Lays groundwork for further statistical modeling (e.g., difference-in-differences, regression).
+- Lays groundwork for further statistical modeling (e.g., difference-in-differences, regression).
 
 🛠️ Tools & Technologies
 Python 3.x
@@ -83,18 +76,18 @@ jupyter notebook "Analyzing_the_Impact_of_Castle_Doctrine_Laws_on_Violent_Crime_
 Run all cells to reproduce the full analysis.
 
 📈 Sample Insights
-Some states show a rise in violent crime rates post-legislation, while others remain stable.
+- Some states show a rise in violent crime rates post-legislation, while others remain stable.
 
-Homicide and assault rates exhibit the most notable variation across states.
+- Homicide and assault rates exhibit the most notable variation across states.
 
-The analysis opens up important questions about public safety, gun control, and self-defense laws.
+- The analysis opens up important questions about public safety, gun control, and self-defense laws.
 
 🧠 Future Work
-Incorporate socioeconomic and demographic control variables.
+- Incorporate socioeconomic and demographic control variables.
 
-Apply statistical significance testing (e.g., t-tests, regression models).
+- Apply statistical significance testing (e.g., t-tests, regression models).
 
-Build an interactive dashboard to explore individual state timelines.
+- Build an interactive dashboard to explore individual state timelines.
 
 👤 Author
 Rafay Salim
